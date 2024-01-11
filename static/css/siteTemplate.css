@@ -1,0 +1,67 @@
+body {
+    margin-top: 0;
+}
+
+.headerBox {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 100px;
+    background: #9d9d9d;
+}
+
+.LogoImage {
+    text-align: center;
+}
+
+.LinkButtonTemplate{
+    border: none;
+    background: transparent;
+    font-size: 35px;
+    height: 80px;
+}
+
+.LinkButtonTemplate:hover {
+    font-size: 40px;
+}
+
+.selectButtonLine {
+    text-decoration: underline;
+}
+
+.homeLinkButton {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.calendarLinkButton {
+    position: absolute;
+    top: 10px;
+    left: 310px;
+}
+
+.categoryLinkButton {
+    position: absolute;
+    top: 10px;
+    left: 540px;
+}
+
+.historyLinkButton {
+    position: absolute;
+    top: 10px;
+    left: 770px;
+}
+
+.searchTextBox {
+    position: absolute;
+    top: 17px;
+    left: 970px;
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+    background: #ffffff;
+    font-size: 30px;
+    padding-left : 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/css/siteTemplate.css">
+    <link rel="stylesheet" href="static/css/mainpage.css">
+    <title>carve</title>
+</head>
+<body>
+    <div class="headerBox">
+        <img src={{ user_image }} height="100px" width="100px" id="LogoImage">
+        <form action="/mainpage" method="get">
+            <button class="homeLinkButton LinkButtonTemplate selectButtonLine" type="submit">ホーム</button>
+        </form>
+        <form action="/calender" method="get">
+            <button class="calendarLinkButton LinkButtonTemplate" type="submit">カレンダー</button>
+        </form>
+        <form action="/category" method="get">
+            <button class="categoryLinkButton LinkButtonTemplate" type="submit">カテゴリー</button>
+        </form>
+        <form action="/history" method="get">
+            <button class="historyLinkButton LinkButtonTemplate" type="submit">読書履歴</button>
+        </form>
+        <input type="text" class="searchTextBox" placeholder="検索"></input>
+    </div>
+        <div class="topicBox TemplateBox">
+            <div class="BoxText">
+                評価の高かった本<br>
+                もう一度読んでみては？
+            </div>
+            <div class="BoxTitle TemplateBox">
+                タイトル：終末のワルキューレ
+            </div>
+            <img src={{ topic_image }} height="240px" width="190px" class="BoxImage">
+            <div class="BoxSter">★★★★★</div>
+            <div class="commentText">とても面白い</div>
+        </div>
+        <div class="scheduleBox">
+            <div class="BoxTitle">
+                評価の高かった本<br>
+                もう一度読んでみては？
+            </div>
+        </div>
+    </div>
+</body>
+</html>

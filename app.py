@@ -10,8 +10,8 @@ app.config["UPLOAD_FOLDER"] = IMG_FOLDER
 @app.route("/mainpage", methods=["GET"])
 def mainpage():
     Flask_Logo = os.path.join(app.config["UPLOAD_FOLDER"], "WebDesignLogo.png")
-    Flask_Logo2 = os.path.join(app.config["UPLOAD_FOLDER"], "bookImage_1.jpg")
-    return render_template("mainpage.html", user_image=Flask_Logo, topic_image=Flask_Logo2)
+    Flask_Image = os.path.join(app.config["UPLOAD_FOLDER"], "bookImage_1.jpg")
+    return render_template("mainpage.html", user_image=Flask_Logo, topic_image=Flask_Image)
 
 @app.route("/calender", methods=["GET"])
 def calender():
